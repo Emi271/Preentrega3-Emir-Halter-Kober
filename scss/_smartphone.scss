@@ -1,0 +1,31 @@
+@media (max-width: 767px) {
+  main, footer, nav{display:flex;
+    align-items: center;}
+.mobile-image {
+display: block;
+position: relative;
+width: 100%;
+}
+
+.desktop-image {
+display: none;
+}
+
+.navbar .navbar-iconos {
+display: none;
+}
+
+.body{
+overflow: hidden;
+
+}
+nav li a {
+font-size: 18px;
+} 
+.fa-home {
+  font-size: 40px;
+  color: white;
+}
+.fa-regular, .fa-solid {
+  color: white;
+}}

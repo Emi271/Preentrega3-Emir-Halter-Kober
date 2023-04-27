@@ -1,0 +1,61 @@
+.logo {
+    position: relative;
+    width: 100px;
+}
+/* BARRA DE NAVEGACIÓN: COLOR DE FONDO, ELIMINA LAS VIÑETAS, MARGEN PADDING */
+nav  {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #000000;
+    margin:0%;
+  }
+  nav li {
+    float: left;
+  }
+  /* BARRA DE N|AVEGACIÓN: TEXTO */
+  nav li a {
+   color: rgb(0, 0, 0); 
+/*     justify-content: space-between; */
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;
+  }
+  /* EFECTO DE LA BARRA DE NAVEGACION */
+  .dropdown-menu {
+    background-color: #000000;
+  }
+  .dropdown-menu a:hover {
+    background-color: #0167ec;
+    transform: scale(1.3); 
+    transition: all 0.4s ease-out;
+    border-radius: 20px;
+  }
+  .first-ul li a:not(:hover) {
+    transform: scale(1);
+    transition: all 0.4s ease-out;
+    border-radius: 20px;
+}
+.navbar-iconos ul li  {
+  display: flex;
+  position: relative;
+  bottom: 8px;
+  justify-content: space-between;
+}
+   .navbar{
+    height: 68px;
+    margin: 0;
+  } 
+  .fa-user {
+    font-size: 40px;
+  }
+  .fa-cart-shopping {
+    font-size: 40px;
+  }
+  .fa-star {
+    font-size: 40px;
+  }
+  .fa-regular, .fa-solid {
+    font-size: 40px;
+  }
+  

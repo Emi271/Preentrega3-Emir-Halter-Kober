@@ -1,0 +1,26 @@
+@media (min-width: 1024px) {
+    .mobile-image {
+        display: none;
+        }
+        
+        /* Muestra la imagen horizontal en pantallas grandes */
+        .desktop-image {
+        display: flex;
+        position: relative;
+        width: 100%;
+        }
+        .navegation-mobile {
+        display: none;
+        }
+        .navbar {
+        width:100%;
+        } 
+        .fixed-bottom {
+            display: none;
+        }
+  }
+
+
+   
+
+    
