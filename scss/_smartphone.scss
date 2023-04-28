@@ -12,11 +12,16 @@ width: 100%;
 .desktop-image {
 display: none;
 }
-
+.nav-link {
+  background-color: #000000;
+  font-size: 16px;
+}
 .navbar .navbar-iconos {
 display: none;
 }
-
+.ficed-bottom {
+  height: 50px;
+}
 .body{
 overflow: hidden;
 
@@ -30,4 +35,13 @@ font-size: 18px;
 }
 .fa-regular, .fa-solid {
   color: white;
-}}
+}
+.card {
+  position: relative;
+  height: 500px;
+   }
+   .card-img-top {
+      position: relative;
+      height: 300px;
+   }
+}

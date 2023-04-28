@@ -10749,6 +10749,7 @@ nav li a {
 /* EFECTO DE LA BARRA DE NAVEGACION */
 .nav-link {
   background-color: #000000;
+  font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -10772,7 +10773,6 @@ nav ul li a:not(:hover) {
 }
 
 .navbar {
-  height: 68px;
   margin: 0;
 }
 
@@ -10830,7 +10830,11 @@ nav ul li a:not(:hover) {
 }
 
 label {
-  color: aliceblue;
+  color: white;
+}
+
+h2, .h2 {
+  color: white;
 }
 
 @media (max-width: 767px) {
@@ -10849,8 +10853,15 @@ label {
   .desktop-image {
     display: none;
   }
+  .nav-link {
+    background-color: #000000;
+    font-size: 16px;
+  }
   .navbar .navbar-iconos {
     display: none;
+  }
+  .ficed-bottom {
+    height: 50px;
   }
   .body {
     overflow: hidden;
@@ -10864,6 +10875,14 @@ label {
   }
   .fa-regular, .fa-solid {
     color: white;
+  }
+  .card {
+    position: relative;
+    height: 500px;
+  }
+  .card-img-top {
+    position: relative;
+    height: 300px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -10905,6 +10924,14 @@ footer label {
   }
   .fixed-bottom {
     display: none;
+  }
+  .card {
+    position: relative;
+    height: 500px;
+  }
+  .card-img-top {
+    position: relative;
+    height: 300px;
   }
 }
 

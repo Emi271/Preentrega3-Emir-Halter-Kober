@@ -24,6 +24,7 @@ nav  {
   /* EFECTO DE LA BARRA DE NAVEGACION */
   .nav-link {
     background-color: #000000;
+    font-size: 20px;
   }
   nav ul li a:hover {
     background-color: #0167ec;
@@ -43,7 +44,6 @@ nav  {
   justify-content: space-between;
 }
    .navbar{
-    height: 68px;
     margin: 0;
   } 
   .fa-user {

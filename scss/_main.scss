@@ -1,3 +1,4 @@
+@import "variableslola";
 .card-img-top{
     position: relative;
     height: 350px;
@@ -34,6 +35,9 @@
   }
 
   label {
-    color: aliceblue;
+    color: $Blanco;
   }
+  h2 {
+    color: $Blanco;
+}
 
