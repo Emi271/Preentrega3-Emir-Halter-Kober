@@ -6,7 +6,9 @@ display: block;
 position: relative;
 width: 100%;
 }
-
+.d-block {
+  height: 200px;
+}
 .desktop-image {
 display: none;
 }

@@ -19,59 +19,107 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>XplotaelBASS</title>
 </head>
-<body>
-    <div class="grid">
-<nav class="navbar">
-    <div> <a href="../index.html"><img src="/CSS/logoxD.png" alt="logo"></a> </div>
-<ul class="first-ul">
-<li><a href="/Pages/Parlantes auto/products.html">Parlantes para auto</a></li>
-<li><a href="/Pages/Parlantes portatiles/products.html">Parlantes portátiles</a></li>
-<li><a href="/Pages/Equipos de musica/products.html">Torres de sonido</a></li>
-</ul>
-<div class="navbar-iconos">
-    <ul>
-<li> <a href="/Pages/MisFavoritos.html"><i class="fa-regular fa-star"></i></a></li>
-<li><a href="/Pages/Carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-<li><a href="/Pages/Login.html"><i class="fa-regular fa-user"></i></a></li>
-</ul>
-</div>
-
-</nav>
-
+<body style="background-image: url(../../CSS/Fondos/galaxia.jpg);">
+    <div class="container-fluid px-0 mx-0">
+        <header class="row mb-4">
+        <div class="col-lg-12 col-12 col-md-12 px-0 mx-0">
+          <nav class="navbar navbar-expand-lg bg-blue " style="width: 100%;">
+              <div class="container-fluid">
+                <a class="nav-link active" aria-current="page" href="../../index.html"><img src="../../CSS/logoxD.png" alt="logo"></a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li><a class="nav-link active text-white" aria-current="page" href="Equipos de musica/products.html">Torres de sonido</a></li>
+                    <li><a class="nav-link active text-white" href="Parlantes auto/products.html">Parlantes para vehículos</a></li>
+                    <li><a class="nav-link active text-white" href="Parlantes portatiles/products.html">Parlantes portátiles</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="MisFavoritos.html"><i class="fa-regular fa-star"></i></a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="Carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#"><i class="fa-regular fa-user"></i></a></li> 
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+     </header>
+    </div>
     <main>
-        <form action="">
-            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
-            <label for="nombre">Nombre</label>
-            <br><br>
-            <input type="adress" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
-            <label for="adress">Apellido</label>
-            <input type="submit" value="enviar">
-        </form>
-
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <form>
+                <div class="form-group">
+                  <label for="Nombre">Nombre</label>
+                  <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp" placeholder="Introduce tu nombre">
+                </div>
+                <div class="form-group">
+                  <label for="Apellido">Apellido</label>
+                  <input type="text" class="form-control" id="Apellido" placeholder="Introduce tu apellido">
+                </div>
+                <div class="form-group">
+                  <label for="telefono">Telefono</label>
+                  <input type="tel" class="form-control" id="telefono" placeholder="Introduce tu telefono">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea id="mensaje" class="form-control" placeholder=" Escribe tu mensaje">
+                  </textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mb-4">ENVIAR</button>
+              </form>
+            </div>
+        </div>
     </main>
-<footer>
-    <div class="footer">
-        <ul>
-            <li><a href="">Defensa al consumidor</a></li>
-            <li><a href="">Política de devoluciones</a></li>
-            <li><a href="">Reclamos y/o denuncias aquí</a></li>
-            <li><a href="">Acerca de XplBASS</a></li>
-            <li><a href="">Quienes somos</a></li>
-            <li><a href="">Lola Lala Loli</a></li>
-        </ul>
-    
-    <h3>XplotaelBASS</h3>
-</div>
-</footer>
-<nav class="navegation-mobile">
-    <div class="navbar-iconos">
-        <ul>
-    <li> <a href="/Pages/MisFavoritos.html"><i class="fa-regular fa-star"></i></a></li>
-    <li><a href="/Pages/Carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-    <li><a href="/Pages/Login.html"><i class="fa-regular fa-user"></i></a></li>
-</ul>
-</div>
-</nav>
-</div>
+    <footer class="text-center text-lg-start">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <ul>
+                <li><a href="">Defensa al consumidor</a></li>
+                <li><a href="">Política de devoluciones</a></li>
+                <li><a href="">Reclamos y/o denuncias aquí</a></li>
+                <li><a href="">Acerca de XplBASS</a></li>
+                <li><a href="">Quienes somos</a></li>
+            </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h4 class="text-white">Seguinos en las redes:</h4>
+              <ul>
+                  <li><a href=""><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                  <li><a href=""><i class="fab fa-twitter"></i> Twitter</a></li>
+                  <li><a href=""><i class="fab fa-tiktok"></i> Tik Tok</a></li>
+                  <li><a href="https://www.instagram.com/emi27h/"><i class="fab fa-instagram"></i> Instagram</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <form action="">
+                <label class="form-label" for="email">Recibí promociones y descuentos suscribiéndote gratis al sitio</label>
+            <input  class="form-input"  type="email" name="email" id="email" placeholder="Tu e-mail"> 
+            <input  class="form-boton" type="submit" value="enviar">
+        </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <nav class="navbar navbar-expand-lg  fixed-bottom d-lg-none d-xs-none d-flex flex-row">
+        <div class="container-fluid">
+            <ul class="navbar-nav flex-row">
+              <li class="nav-item me-5">
+                <a href="../index.html" class="nav-link text-white"><i class="fas fa-home"></i></a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text-white" href="MisFavoritos.html"><i class="fa-regular fa-star"></i></a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text-white" href="Carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text-white" href="#"><i class="fa-regular fa-user"></i></a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      
 </body>
 </html>
