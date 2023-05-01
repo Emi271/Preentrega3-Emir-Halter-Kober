@@ -10794,10 +10794,10 @@ nav ul li a:not(:hover) {
 
 .card-img-top {
   position: relative;
-  height: 350px;
+  height: 300px;
 }
 
-.card-img-top .card {
+.card {
   position: relative;
   height: 500px;
 }
@@ -10835,6 +10835,10 @@ label {
 
 h2, .h2 {
   color: white;
+}
+
+body, img, h2, .h2 {
+  overflow-x: hidden;
 }
 
 @media (max-width: 767px) {

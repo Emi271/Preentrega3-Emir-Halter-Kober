@@ -1,9 +1,8 @@
 @import "variableslola";
 .card-img-top{
     position: relative;
-    height: 350px;
+    height: 300px;
 }
-.card-img-top
 .card {
     position: relative;
     height: 500px;
@@ -39,5 +38,8 @@
   }
   h2 {
     color: $Blanco;
+}
+ body, img, h2{
+  overflow-x: hidden;
 }
 
