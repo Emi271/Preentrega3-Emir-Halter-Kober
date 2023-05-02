@@ -5,9 +5,17 @@
 display: block;
 position: relative;
 width: 100%;
+padding: 0;
 }
 .d-block {
   height: 200px;
+}
+.container-fluid, h1, h2{
+  padding-right: 0;
+}
+.col-lg-12.col-12 {
+  margin: 0;
+  padding: 0;
 }
 .desktop-image {
 display: none;
