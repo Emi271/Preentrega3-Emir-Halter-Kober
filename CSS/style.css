@@ -10759,21 +10759,11 @@ nav ul li a:hover {
   border-radius: 20px;
 }
 
-nav ul li a:not(:hover) {
-  transform: scale(1);
-  transition: all 0.4s ease-out;
-  border-radius: 20px;
-}
-
 .navbar-iconos ul li {
   display: flex;
   position: relative;
   bottom: 8px;
   justify-content: space-between;
-}
-
-.navbar {
-  margin: 0;
 }
 
 .fa-user {
