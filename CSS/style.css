@@ -10832,10 +10832,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  main, footer, nav {
-    display: flex;
-    align-items: center;
-  }
   .mobile-image {
     display: block;
     position: relative;
@@ -10844,6 +10840,7 @@ body {
   }
   .d-block {
     height: 200px;
+    width: 100%;
   }
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl, h1, .h1, h2, .h2 {
     padding-right: 0;

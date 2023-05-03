@@ -1,6 +1,4 @@
 @media (max-width: 767px) {
-  main, footer, nav{display:flex;
-    align-items: center;}
 .mobile-image {
 display: block;
 position: relative;
@@ -9,6 +7,7 @@ padding: 0;
 }
 .d-block {
   height: 200px;
+  width: 100%
 }
 .container-fluid, h1, h2{
   padding-right: 0;
