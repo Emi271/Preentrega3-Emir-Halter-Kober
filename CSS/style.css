@@ -10849,6 +10849,9 @@ body {
     margin: 0;
     padding: 0;
   }
+  .collapse .navbar-collapse .nav-link {
+    display: none;
+  }
   .desktop-image {
     display: none;
   }
@@ -10859,8 +10862,11 @@ body {
   .navbar .navbar-iconos {
     display: none;
   }
-  .ficed-bottom {
-    height: 50px;
+  .fixed-bottom {
+    height: 48px;
+  }
+  .fa-regular, .fa-solid, .fas.fa-home {
+    font-size: 24px;
   }
   .body {
     overflow: hidden;
