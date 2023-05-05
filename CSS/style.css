@@ -10759,13 +10759,6 @@ nav ul li a:hover {
   border-radius: 20px;
 }
 
-.navbar-iconos ul li {
-  display: flex;
-  position: relative;
-  bottom: 8px;
-  justify-content: space-between;
-}
-
 .fa-user {
   font-size: 40px;
 }
@@ -10859,9 +10852,6 @@ body {
     background-color: #000000;
     font-size: 16px;
   }
-  .navbar .navbar-iconos {
-    display: none;
-  }
   .fixed-bottom {
     height: 48px;
   }
@@ -10875,7 +10865,6 @@ body {
     font-size: 18px;
   }
   .fa-home {
-    font-size: 40px;
     color: white;
   }
   .fa-regular, .fa-solid {
@@ -10891,12 +10880,58 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .navegation-mobile {
-    display: inline-block;
-    height: 68px;
+  .mobile-image {
+    display: block;
+    position: relative;
     width: 100%;
-    justify-content: center;
+    padding: 0;
+  }
+  .d-block {
+    height: 200px;
+    width: 100%;
+  }
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl, h1, .h1, h2, .h2 {
+    padding-right: 0;
+  }
+  .col-lg-12.col-12 {
+    margin: 0;
+    padding: 0;
+  }
+  .collapse .navbar-collapse .nav-link {
+    display: none;
+  }
+  .desktop-image {
+    display: none;
+  }
+  .nav-link {
     background-color: #000000;
+    font-size: 16px;
+  }
+  .fixed-bottom {
+    height: 48px;
+  }
+  .fa-regular, .fa-solid, .fas.fa-home {
+    font-size: 24px;
+  }
+  .body {
+    overflow: hidden;
+  }
+  nav li a {
+    font-size: 18px;
+  }
+  .fa-home {
+    color: white;
+  }
+  .fa-regular, .fa-solid {
+    color: white;
+  }
+  .card {
+    position: relative;
+    height: 500px;
+  }
+  .card-img-top {
+    position: relative;
+    height: 300px;
   }
 }
 footer {
@@ -10919,12 +10954,6 @@ footer label {
   .desktop-image {
     display: flex;
     position: relative;
-    width: 100%;
-  }
-  .navegation-mobile {
-    display: none;
-  }
-  .navbar {
     width: 100%;
   }
   .fixed-bottom {

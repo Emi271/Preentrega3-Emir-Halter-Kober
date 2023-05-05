@@ -9,6 +9,7 @@ padding: 0;
   height: 200px;
   width: 100%
 }
+// Diseño full responsive Elimino por completo el overflow
 .container-fluid, h1, h2{
   padding-right: 0;
 }
@@ -16,19 +17,21 @@ padding: 0;
   margin: 0;
   padding: 0;
 }
+// Quito los íconos de la navbar superior (donde está el logo) para que 
+// no se vean en la vista smartphone
 .collapse .navbar-collapse .nav-link {
   display: none;
 }
+// la imagen horizontal no se ve en pantallas smartphone
 .desktop-image {
 display: none;
 }
+// iconos novbar inferior
 .nav-link {
   background-color: #000000;
   font-size: 16px;
 }
-.navbar .navbar-iconos {
-display: none;
-}
+// navbar inferior
 .fixed-bottom {
   height: 48px;
 }
@@ -43,13 +46,14 @@ overflow: hidden;
 nav li a {
 font-size: 18px;
 } 
+// iconos
 .fa-home {
-  font-size: 40px;
   color: white;
 }
 .fa-regular, .fa-solid {
   color: white;
 }
+// tarjetas
 .card {
   position: relative;
   height: 500px;

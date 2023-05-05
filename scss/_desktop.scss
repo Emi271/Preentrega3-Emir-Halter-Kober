@@ -1,4 +1,5 @@
 @media (min-width: 1024px) {
+    // no se muestra la imagen vertical en pantallas grandes
     .mobile-image {
         display: none;
         }
@@ -9,16 +10,11 @@
         position: relative;
         width: 100%;
         }
-        .navegation-mobile {
-        display: none;
-        }
-        .navbar {
-        width:100%;
-        } 
+        // no se muestra la nav de iconos en pantallas grandes
         .fixed-bottom {
             display: none;
         }
-
+// tarjetas
         .card {
             position: relative;
             height: 500px;
