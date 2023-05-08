@@ -62,4 +62,8 @@ font-size: 18px;
       position: relative;
       height: 300px;
    }
+   .container-fluid, .row {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }

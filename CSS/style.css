@@ -10878,6 +10878,10 @@ body {
     position: relative;
     height: 300px;
   }
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl, .row {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .mobile-image {
